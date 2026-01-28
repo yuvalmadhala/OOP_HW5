@@ -1,5 +1,5 @@
-#ifndef LIST_H
-#define LIST_H
+#ifndef PART2_LIST_H
+#define PART2_LIST_H
 
 //~~~~~~~~~~~~~~~~~~~~~~ List Data Structure ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -71,4 +71,4 @@ struct SetAtIndex<N, AType, List<T, Types...>> {
     typedef typename PrependList<T, typename SetAtIndex<N - 1, AType, List<Types...>>::list>::list list;
 };
 
-#endif //LIST_H
+#endif //PART2_LIST_H

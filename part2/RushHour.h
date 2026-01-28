@@ -1,0 +1,3 @@
+#ifndef PART2_RUSHHOUR_H
+#define PART2_RUSHHOUR_H
+#endif //PART2_RUSHHOUR_H
